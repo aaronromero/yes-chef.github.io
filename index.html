@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes</title>
+    <!-- Redirect script -->
+    <script>
+        // Redirect function
+        function redirectToRecipe(url) {
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <h1>Yes Chef!</h1>
+    <h2>Recipe book of our favorite meals</h2>
+    <!-- List of recipes with links -->
+    <ul>
+        <li><a href="#" onclick="redirectToRecipe('recipes/chicken_karaage.html')">Chicken Karaage</a></li>
+        <li><a href="#" onclick="redirectToRecipe('recipes/red_pepper_pasta.html')">Red Pepper Pasta</a></li>
+    </ul>
+</body>
+</html>
+
