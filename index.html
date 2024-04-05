@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking Recipes</title>
+    <title>Yes Chef Recipes</title>
+    <!-- Add gradient background -->
+    <style>
+        body {
+            background: linear-gradient(to bottom, #5d6d7e, #ccd1d1); /* Gradient background */
+            background-attachment: fixed;
+            color: #fff; /* White text color */
+            font-family: Arial, sans-serif; /* Optional: Set font family */
+            margin: 0; /* Optional: Remove default margin */
+            padding: 20px; /* Optional: Add padding for content */
+        }
+        /* Styling links */
+        a {
+            color: #333; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+        /* Change link color on hover */
+        a:hover {
+            color: #555; /* Darker color on hover */
+        }
+    </style>
     <!-- Redirect script -->
     <script>
         // Redirect function
@@ -14,12 +34,25 @@
     </script>
 </head>
 <body>
-    <h1>Yes Chef!</h1>
-    <h2>Recipe book of our favorite meals</h2>
+    <h1>Yes Chef Recipes</h1>
+    <h3>Meals</h3>
     <!-- List of recipes with links -->
     <ul>
         <li><a href="#" onclick="redirectToRecipe('recipes/chicken_karaage.html')">Chicken Karaage</a></li>
+        <li><a href="#" onclick="redirectToRecipe('recipes/chicken_katsu.html')">Chicken Katsu</a></li>
         <li><a href="#" onclick="redirectToRecipe('recipes/red_pepper_pasta.html')">Red Pepper Pasta</a></li>
+    </ul>
+    <h3>Stocks and Soups</h3>
+    <!-- List of recipes with links -->
+    <ul>
+        <li><a href="#" onclick="redirectToRecipe('recipes/chicken_stock.html')">Chicken Stock</a></li>
+        <li><a href="#" onclick="redirectToRecipe('recipes/veal_stock.html')">Veal Stock</a></li>
+        <li><a href="#" onclick="redirectToRecipe('recipes/wonton_noodle_soup.html')">Wonton Noodle Soup</a></li>
+    </ul>
+    <h3>Sauces</h3>
+    <!-- List of recipes with links -->
+    <ul>
+        <li><a href="#" onclick="redirectToRecipe('recipes/bordelaise_sauce.html')">Bordelaise Sauce</a></li>
     </ul>
 </body>
 </html>
